@@ -2,14 +2,10 @@
 
 <h1>AttentionFlow: Text-to-Video Editing Using Motion Map Injection Module</h1>
 
-<!-- <h3><a href="https://arxiv.org/abs/2303.17599"> Accept되면 링크 넣기 AttentionFlow: Text-to-Video Editing Using Motion Map Injection Module</a></h3> -->
-
-<!-- 나중에 우리 이름 넣고 고치기 [Wen Wang](https://scholar.google.com/citations?user=1ks0R04AAAAJ&hl=zh-CN)<sup>1*</sup>, &nbsp; [Kangyang Xie](https://github.com/felix-ky)<sup>1*</sup>, &nbsp; [Zide Liu](https://github.com/zideliu)<sup>1*</sup>, &nbsp; [Hao Chen](https://scholar.google.com.au/citations?user=FaOqRpcAAAAJ&hl=en)<sup>1</sup>, &nbsp; [Yue Cao](http://yue-cao.me/)<sup>2</sup>, &nbsp; [Xinlong Wang](https://www.xloong.wang/)<sup>2</sup>, &nbsp; [Chunhua Shen](https://cshen.github.io/)<sup>1</sup> --> 
-<!-- <sup>1</sup>[ZJU](https://www.zju.edu.cn/english/), &nbsp; <sup>2</sup>[BAAI](https://www.baai.ac.cn/english.html) -->
 
 <br>
 
-<image src="results/figure1.jpg" />
+<image src="results/figure1.jpg" width='50%' height='50%' />
 <br>
 
 </div>
