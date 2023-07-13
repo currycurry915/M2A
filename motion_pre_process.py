@@ -178,13 +178,13 @@ def calculate_correlation_score_many_method(prompt, motion_prompt, attn_map, mag
     frame_per_one_attention = torch.mean(attn_map[:8], dim=0)
     frame_per_one_attention_np = np.array(frame_per_one_attention.cpu())
 
-    for i in range(1, len(split_prompt)+1):
-        image = frame_per_one_attention[:, :, i]
-        image = 255 * image / image.max()
-        image = image.unsqueeze(-1).expand(*image.shape, 3)
-        image = image.cpu().numpy().astype(np.uint8)
-        image = Image.fromarray(image)
-        image.save('/path/save/images/name'+'.png')
+    # for i in range(1, len(split_prompt)+1):
+    #     image = frame_per_one_attention[:, :, i]
+    #     image = 255 * image / image.max()
+    #     image = image.unsqueeze(-1).expand(*image.shape, 3)
+    #     image = image.cpu().numpy().astype(np.uint8)
+    #     image = Image.fromarray(image)
+    #     image.save('/path/save/images/name'+'.png')
 
     mag_ori_np = mag
     mag = mag.squeeze(-1).squeeze(0)

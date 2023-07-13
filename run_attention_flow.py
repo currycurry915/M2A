@@ -329,7 +329,7 @@ def main(
                     
                     # Hyperparameter
                     # Specify the intensity at which the motion map will be injected to the attention of different prompts.
-                    x = 0.2
+                    x = 0.09
 
                     # #-----------------------------------------------------------------------------------
 
@@ -345,10 +345,10 @@ def main(
 
                     # #-----------------------------------------------------------------------------------
 
-                    save_image(forward_flow_0_1_magnitude.squeeze(-1), output_folder + '/forward_flow_0_1_magnitude.png')
-                    save_image(forward_flow_1_2_magnitude.squeeze(-1), output_folder + '/forward_flow_1_2_magnitude.png')
-                    save_image(forward_flow_2_3_magnitude.squeeze(-1), output_folder + '/forward_flow_2_3_magnitude.png')
-                    save_image(backward_flow_3_2_magnitude.squeeze(-1), output_folder + '/backward_flow_3_2_magnitude.png')
+                    # save_image(forward_flow_0_1_magnitude.squeeze(-1), output_folder + '/forward_flow_0_1_magnitude.png')
+                    # save_image(forward_flow_1_2_magnitude.squeeze(-1), output_folder + '/forward_flow_1_2_magnitude.png')
+                    # save_image(forward_flow_2_3_magnitude.squeeze(-1), output_folder + '/forward_flow_2_3_magnitude.png')
+                    # save_image(backward_flow_3_2_magnitude.squeeze(-1), output_folder + '/backward_flow_3_2_magnitude.png')
 
                     # #-----------------------------------------------------------------------------------
 
