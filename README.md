@@ -70,7 +70,7 @@ The environment is very similar to [Video-P2P](https://github.com/ShaoTengLiu/Vi
 
 The versions of the packages we installed are:
 
-torch: 1.12.1
+torch: 1.12.1 \
 xformers: 0.0.15.dev0+0bad001.d20230712
 
 In the case of xformers, I installed it through the [link](https://github.com/bryandlee/Tune-A-Video/issues/4) introduced by Video-P2P.
