@@ -52,7 +52,7 @@ def main(
     blend_word: Tuple[str] = None,
     cross_replace_steps: float = 0.2,
     self_replace_steps: float = 0.5,
-    video_len: int = 4,
+    video_len: int = 8,
     fast: bool = False,
     mixed_precision: str = 'fp32',
 ):
