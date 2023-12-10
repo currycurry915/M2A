@@ -26,8 +26,8 @@ Text-to-image diffusion, which has been trained with a large amount of text-imag
 
  <tr>
   <td align="center" width=25% style="text-align:center;color:gray;">"clouds {flowing} under a skyscraper"</td>
-  <td align="center" width=25% style="text-align:center;">"waves {flowing} under a skyscraper"</td>
-  <td align="center" width=25% style="text-align:center;color:gray;">"waves {flowing} under a skyscraper"</td>
+  <td align="center" width=25% style="text-align:center;">"waves \{flowing\} under a skyscraper"</td>
+  <td align="center" width=25% style="text-align:center;color:gray;">"waves \{flowing\} under a skyscraper"</td>
 </tr>
 
 <tr>
@@ -38,9 +38,9 @@ Text-to-image diffusion, which has been trained with a large amount of text-imag
 
 
 <tr>
-  <td align="center" width=25% style="text-align:center;color:gray;">"clouds {flowing} on the mountain"</td>
+  <td align="center" width=25% style="text-align:center;color:gray;">"clouds \{flowing\} on the mountain"</td>
   <td align="center" width=25% style="text-align:center;">"lava {flowing} on the mountain"</td>
-  <td align="center" width=25% style="text-align:center;color:gray;">"lava {flowing} on the mountain"</td>
+  <td align="center" width=25% style="text-align:center;color:gray;">"lava \{flowing\} on the mountain"</td>
 </tr>
 
 <tr>
@@ -50,9 +50,9 @@ Text-to-image diffusion, which has been trained with a large amount of text-imag
 </tr>
 
 <tr>
-  <td align="center" width=25% style="text-align:center;color:gray;">"{spinning} wings of windmill are beside the river"</td>
-  <td align="center" width=25% style="text-align:center;">"yellow {spinning} wings of windmill are beside the river"</td>
-  <td align="center" width=25% style="text-align:center;color:gray;">"yellow {spinning} wings of windmill are beside the river"</td>
+  <td align="center" width=25% style="text-align:center;color:gray;">"\{spinning\} wings of windmill are beside the river"</td>
+  <td align="center" width=25% style="text-align:center;">"yellow \{spinning\} wings of windmill are beside the river"</td>
+  <td align="center" width=25% style="text-align:center;color:gray;">"yellow \{spinning\} wings of windmill are beside the river"</td>
 </tr>
 
 <tr>
