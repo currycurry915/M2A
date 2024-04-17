@@ -103,12 +103,12 @@ python run_tuning.py  --config="configs/cloud-1-tune.yaml"
 ``` bash
 # Stage 2: Attention Control
 
-python run_attention_flow.py --config="configs/cloud-1-p2p.yaml" --motion_prompt "Please enter motion prompt"
+python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_prompt "Please enter motion prompt"
 
 # If the prompt is "clouds flowing under a skyscraper", the motion prompt is "flowing".
 # You can input the motion prompt as below.
 
-python run_attention_flow.py --config="configs/cloud-1-p2p.yaml" --motion_prompt "flowing"
+python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_prompt "flowing"
 ```
 
 Find your results in **Video-P2P/outputs/xxx/results**.
