@@ -6,12 +6,19 @@
 <br>
 
 <image src="results/attention.png"  />
+The existing T2V model failed to estimate an accurate attention map for the motion prompt \{Floating\}, which resulted in a decrease in editability, as shown in the top row of (b). (a) is a figure comparing the editability of Video-P2P and adding the proposed module to Video-P2P for input video. The proposed module improves the editability of existing video editing models through accurate estimation of attention maps. (b) briefly explains the method of enhancing the attention map by applying the proposed Motion-to-Attention module to address the limitations that the existing T2V model cannot accurately generate.
+
 <br>
 
 </div>
 
 ## Abstract
 Recent text-guided video editing research attempts to expand from image to video based on the text-guided image editing model. To this end, most research focuses on achieving temporal consistency between frames as a primary challenge in text-guided video editing. However, despite their efforts, the editability is still limited when there is a prompt indicating motion, such as "floating". In our experiment, we found that this phenomenon was due to the inaccurate attention map of the motion prompt. In this paper, we suggest the Motion-to-Attention (M2A) module to perform precise video editing by explicitly taking motion into account. First, we convert the optical flow extracted from the video into a motion map. During conversion, users can selectively apply direction information to extract the motion map. The proposed M2A module uses two methods: "Attention-Motion Swap", which directly replaces the motion map with the attention map, and "Attention-Motion Fusion", which uses the association between the motion map and the attention map, measured by a Fusion metric, as a weight to enhance the attention map using the motion map. The Text-to-Video editing model with the proposed M2A module showed better quantitative and qualitative results compared to the existing model.
+
+
+## Our Frameworks
+<image src="static/images/TCSVT_framework.png"  />
+The left side of the figure shows the overall framework of video editing by enhancing the attention map. First, the Text-to-Video (T2V) Model generates an attention map by receiving video and prompts as input. Simultaneously, the optical flow estimation model estimates the optical flow from the input video frames. The estimated optical flow is converted to a motion map by default using only magnitude information. Optionally, when direction information is provided by the user, the Direction Control converts the optical flow to a motion map that only shows movement in the user-specified direction. If the user indicates directional words with \textbf{[]}, the model captures the direction information and performs Direction Control. Then, the motion map is injected into the attention map of the T2V-Model in two ways from the M2A module: Attention-Motion Swap and Attention Motion Fusion. After that, text-to-video editing is performed using the attention map enhanced by the motion map. The right side of the figure shows how the Attention-Motion Swap and Attention-Motion Fusion of the M2A module enhance the attention map with the motion map.
 
 
 ## Examples
