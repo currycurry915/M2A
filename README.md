@@ -25,7 +25,7 @@ The left side of the figure shows the overall framework of video editing by enha
 <image src="results/experimental_results.png"  />
 
 
-
+### You can find more experimental results [on our project page](https://currycurry915.github.io/Motion-to-Attention/).
 
 <table class="center">
 <tr>
@@ -72,7 +72,7 @@ The left side of the figure shows the overall framework of video editing by enha
 </tr>
 </table>
 
-### You can find more experimental results [on our project page](https://currycurry915.github.io/Motion-to-Attention/).
+
 
 
 ## Setup
