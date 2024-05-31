@@ -6,7 +6,7 @@
 <br>
 
 <image src="results/attention.png"  />
-The existing T2V model failed to estimate an accurate attention map for the motion prompt \{Floating\}, which resulted in a decrease in editability, as shown in the top row of (b). (a) is a figure comparing the editability of Video-P2P and adding the proposed module to Video-P2P for input video. The proposed module improves the editability of existing video editing models through accurate estimation of attention maps. (b) briefly explains the method of enhancing the attention map by applying the proposed Motion-to-Attention module to address the limitations that the existing T2V model cannot accurately generate.
+The existing T2V model failed to estimate an accurate attention map for the motion prompt {Floating}, which resulted in a decrease in editability, as shown in the top row of (b). (a) is a figure comparing the editability of Video-P2P and adding the proposed module to Video-P2P for input video. The proposed module improves the editability of existing video editing models through accurate estimation of attention maps. (b) briefly explains the method of enhancing the attention map by applying the proposed Motion-to-Attention module to address the limitations that the existing T2V model cannot accurately generate.
 
 <br>
 
