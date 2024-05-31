@@ -119,3 +119,8 @@ python run_motion_to_attention.py --config="configs/cloud-1-p2p.yaml" --motion_p
 ```
 
 Find your results in **Video-P2P/outputs/xxx/results**.
+
+
+## Acknowledgements
+This repository borrows heavily from [Video-P2P](https://github.com/ShaoTengLiu/Video-P2P). Thanks to the authors for sharing their code and models.
+
